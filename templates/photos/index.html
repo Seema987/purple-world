@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+    <h1>Photos</h1>
+
+    {% if current_user() %}
+    <h3>Welcome to Purple Library {{ current_user()['first_name'] }}</h3>
+   
+    <section class="controls">
+
+        <form action="/sessions/delete" method="POST">
+            <button>Log out</button>
+        </form>
+
+    <a href="/photos/new">Add photo</a>
+    </section>
+    
+    <section class="photos">
+        {% for photo in photos: %}
+        
+        <section class="photo">
+        <header>
+            <h2>{{ photo['name'] }}</h2>
+        </header>
+        <img src="{{ photo['image_url'] }}" alt="">
+
+        <section class="controls">
+            <a href="/photos/{{ photo['id'] }}/edit">Edit</a>
+
+            <form action="/photos/{{ photo['id'] }}/delete" method="POST">
+                <button>Delete</button>
+            </form>
+
+            <form action="/photos/{{ photo[id] }}/comment" method="POST">
+                <label for="">Comment:</label>
+                <textarea name="user_comment" id="add_comment" rows="5" cols="50"></textarea>
+                <button>Submit</button>
+        
+            </form>
+         
+        </section>
+        </header>
+    </section>
+    {% endfor %}
+    </section>
+    {% else %}
+    <a href="/users/new">Sign up</a>
+    <a href="/sessions/new">Log in</a>
+    {% endif %}
+
+    {% endblock  %}
