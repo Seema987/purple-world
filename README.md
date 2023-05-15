@@ -39,7 +39,13 @@ Inside each HTML add needed forms, inputs, buttons, loops and conditions. Use ba
 
 
 ## Flask Integration
-Flask is used as the main framework fot the development of this app. 
+Flask is used as the main framework for the development of this app. 
+
+## Other tools used 
+1. HTML
+2. CSS
+3. PYTHON
+4. SQL
 
 ## Future Upgrade
 1. User will be able to delete or edit their comments.
