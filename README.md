@@ -1,7 +1,8 @@
 # Purple Delight
 ## Welcome to Purple Library
 ### This is a website for people who want to organize their photo library. 
-## Click here to visit Purple Library. [Purple Library](https://purple-library.onrender.com/photos/)
+## [Click Here](https://purple-library.onrender.com/photos/)
+to visit Purple Library. 
 
 # Website Plan
 
@@ -52,6 +53,11 @@ Flask is used as the main framework for the development of this app.
 1. User will be able to delete or edit their comments.
 2. User will be able to upload files rather than just links. 
 3. User will be able to add description to their photos.
+
+## Wireframes
+![First Page](/wireframe/first.png)
+![Second Page](/wireframe/second.png)
+![ThirdPage](/wireframe/third.png)
 
 
 ## Contact me
