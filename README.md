@@ -14,8 +14,18 @@
         - base.html
 Inside each HTML add needed forms, inputs, buttons, loops and conditions. Use base.html as boilerplate. 
 
-3. 
+3. Create SQL db and tables with needed columns.
 
+4. Use MVCR (Model View Controller Routes) format to organise codes. 
+
+## Features 
+
+1. Sign up 
+2. Log in
+3. Add photos with link
+4. Delete photos
+5. Update/edit photots
+6. Add comments
 
 
 ## How to use Purple Library 
@@ -30,6 +40,11 @@ Inside each HTML add needed forms, inputs, buttons, loops and conditions. Use ba
 
 ## Flask Integration
 Flask is used as the main framework fot the development of this app. 
+
+## Future Upgrade
+1. User will be able to delete or edit their comments.
+2. User will be able to upload files rather than just links. 
+3. User will be able to add description to their photos.
 
 
 ## Contact me

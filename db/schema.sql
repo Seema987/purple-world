@@ -22,5 +22,8 @@ ALTER TABLE users ADD COLUMN password_digest TEXT;
 
 CREATE TABLE comments(
     id SERIAL PRIMARY KEY,
-    user_comment TEXT
+    user_comment TEXT,
+    photo_id INT,
+    user_id INT
 );
+

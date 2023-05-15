@@ -14,5 +14,10 @@ def find_user_by_email(email):
         return None
     
 def find_user_by_id(id):
+    print(f' THIS IS  {id} ')
     users = sql('SELECT * FROM users WHERE  id = %s', [id])
-    return users[0]
+    print(f'THIS IS {users} ID')
+    if len(users) < 0:
+        return None
+    else:
+        return users[0]

@@ -37,7 +37,13 @@
                 <button>Submit</button>
         
             </form>
-         
+         {% for comment in comments %}
+         <div class="comment"> 
+            {% if comment['photo_id'] == photo['id'] %}
+            <p>{{ current_user()['first_name'] }} : {{comment['user_comment'] }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
         </section>
         </header>
     </section>

@@ -1,6 +1,9 @@
 import os
 from flask import Flask, redirect
 from routes.photos_routes import photos_routes
+import os
+from flask import Flask, redirect
+from routes.photos_routes import photos_routes
 from routes.users_routes import users_routes
 from routes.sessions_routes import sessions_routes
 

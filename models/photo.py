@@ -15,5 +15,10 @@ def update_photo(id, name, image_url):
 def delete_photo(id):
     sql('DELETE FROM photos WHERE id=%s RETURNING *', [id])
 
-def comment_photo(id, user_comment):
-    sql('INSERT INTO comments(user_comment, id) VALUES(%s, %s)RETURNING *', [user_comment, id])
+def comment_photo(user_comment, photo_id, user_id):
+    sql('INSERT INTO comments(user_comment, photo_id, user_id) VALUES(%s, %s, %s)RETURNING *', [user_comment, photo_id, user_id])
+
+def get_comments():
+    comments =  sql('SELECT * FROM comments')
+    return comments
+   
