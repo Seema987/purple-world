@@ -50,14 +50,15 @@ h1 {
   border: 2px solid black;
   border-radius: 25%;
   width:450px;
-  height: 150px;
+  height: 250px;
   line-height: 100px;
   font-size: 24px;
   margin-left: 420px;
-  background-image: url(https://images.unsplash.com/photo-1524562787295-1608217aa823?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHB1cnBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+  background-image: url(https://images.unsplash.com/photo-1516491575772-bab9f75948c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU4fHxwdXJwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   text-indent: 190px;
   font-size: 70px;
+  color: white;
 }
 
 .comment {
@@ -91,15 +92,16 @@ h3{
   text-align:center;
   border: 2px solid black;
   border-radius: 40%;
-  width: 250px;
+  width: 450px;
   height: 300px;
   line-height: 100px;
   font-size: 24px;
   margin-left: 500px;
   font-family: cursive;
-  background-image: url(https://images.unsplash.com/photo-1607707972895-7f994d8c2f3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHB1cnBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+  background-image: url(https://images.unsplash.com/photo-1594165681163-1b85559cf250?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   color:azure;
+  font-size: 65px;
 }
 
 .topic {
