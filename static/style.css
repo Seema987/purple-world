@@ -76,6 +76,7 @@ button:focus, button:hover {
   -webkit-transition: -webkit-transform .088s,box-shadow .088s;
   transition: transform .088s,box-shadow .088s;
   z-index: 1;
+  background-color: #a883ba;
 }
 
 #add_comment{
@@ -99,4 +100,23 @@ h3{
   background-image: url(https://images.unsplash.com/photo-1607707972895-7f994d8c2f3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHB1cnBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   color:azure;
+}
+
+.topic {
+  background-image: url(https://images.unsplash.com/photo-1595681224916-98844d59ea47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxwdXJwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+  background-repeat: repeat;
+  background-size: 170px;
+  margin-top: 0px;
+}
+
+a:hover{
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: #dbbee6;
+  color: rgb(131, 68, 68)
 }

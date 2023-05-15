@@ -1,6 +1,7 @@
 # Purple Delight
 ## Welcome to Purple Library
 ### This is a website for people who want to organize their photo library. 
+## Click here to visit Purple Library. [Purple Library](https://purple-library.onrender.com/photos/)
 
 # Website Plan
 

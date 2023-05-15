@@ -1,10 +1,13 @@
 {% extends 'base.html' %}
 
     {% block content %}
+   <div class="topic">
     <h1>Photos</h1>
 
     {% if current_user() %}
     <h3>Welcome to Purple Library {{ current_user()['first_name'] }}</h3>
+
+    </div>
    
     <section class="controls">
 
