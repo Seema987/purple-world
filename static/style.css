@@ -63,6 +63,7 @@ h1 {
   text-indent: 0;
   font-family: fantasy;
   background-image: url(https://images.unsplash.com/photo-1541451378359-acdede43fdf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHB1cnBsZSUyMHdhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+  box-shadow: 0 8px 16px rgba(6,5,10,9);
 }
 
 .comment {
