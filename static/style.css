@@ -40,9 +40,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e1d2e9;
+  background-color: #e6e6e6;
   padding: 0 1rem;
-  color: white;
+  color: rgb(128, 100, 138);font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -224,8 +227,3 @@ margin-left: 0;
   box-shadow: 0 8px 16px rgba(0,0,0,.8);
 }
 
-.gif::before{
-  background-image: url(https://media.tenor.com/R0YRjCreZnYAAAAM/100.gif);
-  background-size: cover;
-  display:block;
-}
