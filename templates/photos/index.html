@@ -1,18 +1,17 @@
 {% extends 'base.html' %}
 
     {% block content %}
+    <body class="home_body" style="{% if current_user()%} background-color: thistle; {% else %} background-image: url(https://images.unsplash.com/photo-1545231160-e7ef23d9301f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHB1cnBsZSUyMHBob3RvJTIwYWxidW18ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60); {% endif %}">
    <div class="topic">
     <h1>Purple <br> Delight</h1>
-
     {% if current_user() %}
     <h3>Welcome to Purple Library <br> {{ current_user()['first_name'] }}</h3>
 
     </div>
-   
     <section class="controls">
 
         <form action="/sessions/delete" method="POST">
-            <button>Log out</button>
+            <button class="out">Log out</button>
         </form>
 
     <a href="/photos/new">Add photo</a>
@@ -53,8 +52,9 @@
     {% endfor %}
     </section>
     {% else %}
-    <a href="/users/new">Sign up</a>
-    <a href="/sessions/new">Log in</a>
+    <a href="/users/new" class="entry">Sign up</a>
+    <a href="/sessions/new" class="entry">Log in</a>
+    </body>
     {% endif %}
 
     {% endblock  %}

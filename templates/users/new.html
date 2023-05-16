@@ -1,22 +1,23 @@
 {% extends 'base.html' %}
 
     {% block content %}
-    
-    <h1>Sign up</h1>
-    <form action="/users" method="POST">
-        <label for="">First Name:</label>
-        <input type="text" name="first_name">
+    <body class="sign_up_body">
+    <h1 class="sign_up">Sign up</h1>
+    <form action="/users" method="POST" class="sign_up">
+        <label for="" class="info">First Name:</label>
+        <input type="text" name="first_name" class="items">
 
-        <label for="">Last Name:</label>
-        <input type="text" name="last_name">
+        <label for="" class="info">Last Name:</label>
+        <input type="text" name="last_name" class="items">
 
-        <label for="">Email:</label>
-        <input type="text" name="email">
+        <label for="" class="info">Email:</label>
+        <input type="text" name="email" class="items">
 
-        <label for="">Password:</label>
-        <input type="password" name="password">
+        <label for="" class="info">Password:</label>
+        <input type="password" name="password" class="items">
         
         <button>Sign up</button>
 
     </form>
+    </body>
     {% endblock  %}

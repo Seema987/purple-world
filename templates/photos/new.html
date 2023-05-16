@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
 
     {% block content %}
-    
-    <h1>ADD photo</h1>
-    <form action="/photos" method="POST">
-        <label for="">Name:</label>
-        <input type="text" name="name">
+    <body class="add_photo_body">
+    <h1 class="log_in">ADD photo</h1>
+    <form action="/photos" method="POST" class="log_in">
+        <label for="" class="info">Name:</label>
+        <input type="text" name="name" class="items">
 
-        <label for="">Image URL:</label>
-        <input type="text" name="image_url">
+        <label for="" class="info">Image URL:</label>
+        <input type="text" name="image_url" class="items">
 
 
         <button>Add photo</button>
 
     </form>
+    </body>
     {% endblock  %}

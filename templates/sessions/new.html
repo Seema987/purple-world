@@ -1,17 +1,18 @@
 {% extends 'base.html' %}
 
     {% block content %}
-    
-    <h1>Log In</h1>
-    <form action="/sessions" method="POST">
+   <body class="log_in_body"> 
+    <h1 class="log_in">Log In</h1>
+    <form action="/sessions" method="POST" class="log_in">
 
-        <label for="">Email:</label>
-        <input type="text" name="email">
+        <label for="" class="info">Email:</label>
+        <input type="text" name="email" class="items">
 
-        <label for="">Password:</label>
-        <input type="password" name="password">
+        <label for="" class="info">Password:</label>
+        <input type="password" name="password" class="items">
         
         <button>Log in</button>
 
     </form>
+    </body>
     {% endblock  %}

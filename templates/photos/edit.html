@@ -1,15 +1,16 @@
 {% extends 'base.html' %}
 
     {% block content %}
-    
-    <h1>Edit Photos</h1>
-    <form action="/photos/{{ photo['id'] }}" method="POST">
-        <label for="">Name:</label>
-        <input type="text" name="name" value="{{ photo['name'] }}">
+    <body class="edit_body">
+    <h1 class="log_in">Edit Photos</h1>
+    <form action="/photos/{{ photo['id'] }}" method="POST" class="log_in">
+        <label for="" class="info">Name:</label>
+        <input type="text" name="name" value="{{ photo['name'] }}" class="items">
 
-        <label for="">Image URL:</label>
-        <input type="text" name="image_url" value="{{ photo['image_url'] }}">
+        <label for="" class="info">Image URL:</label>
+        <input type="text" name="image_url" value="{{ photo['image_url'] }}" class="items">
 
         <button>Update photo</button>
     </form>
+    </body>
     {% endblock %}
