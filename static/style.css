@@ -62,7 +62,7 @@ h1 {
   font-size: 100px;
   text-indent: 0;
   font-family: fantasy;
-  background-image: url(https://i.pinimg.com/474x/9c/c3/62/9cc362bbed91fde1c352249166f2310c.jpg);
+  background-image: url(https://images.unsplash.com/photo-1541451378359-acdede43fdf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHB1cnBsZSUyMHdhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
 }
 
 .comment {
@@ -106,7 +106,7 @@ h3{
   padding-top: 85px;
   margin-left: 500px;
   font-family: cursive;
-  background-image: url(https://images.unsplash.com/photo-1594165681163-1b85559cf250?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fHB1cnBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+  background-image: url(https://images.unsplash.com/photo-1635696893391-ecf1fe614cf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHB1cnBsZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   color:azure;
   font-size: 65px;
@@ -115,6 +115,8 @@ h3{
 
 .topic {
   margin-top: 0px;
+  background-image: url(https://images.unsplash.com/photo-1558221733-6ceab639d631?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHB1cnBsZSUyMHdhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+  background-size: cover;
 }
 
 a:hover{
